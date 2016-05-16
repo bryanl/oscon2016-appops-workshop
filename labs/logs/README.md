@@ -12,4 +12,4 @@
 
 ## View logs
 
-* Click `Disover`
+* Click `Discover`
