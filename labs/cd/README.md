@@ -9,6 +9,8 @@
 
 ## Test our application
 
+* replace the IP and Port below with the details from your docker environment named omniscient_web_1
+
 * `curl -X POST -d '{"content": "a new note"}'  159.203.33.226:8999/notes`
 * `curl http://159.203.33.226:8999/notes`
 * `curl http://159.203.33.226:8999/metrics`
@@ -18,5 +20,5 @@
 ## Repdeploying our application
 
 * On shell, `cd ~workshop/deploy/omniscient`.
-* Pull a new version of our application, `./docker-compose pull`
-* Redeploy our application `./docker-compus up web`
+* Pull a new version of our application, `./docker-compose.sh pull`
+* Redeploy our application `./docker-compose.sh up web`
