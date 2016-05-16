@@ -29,5 +29,5 @@
 ## Repdeploying our application
 
 * On shell, `cd ~workshop/deploy/omniscient`.
-* Pull a new version of our application, `./docker-compose pull`
-* Redeploy our application `./docker-compus up web`
+* Pull a new version of our application, `./docker-compose.sh pull`
+* Redeploy our application `./docker-compose.sh up web`
